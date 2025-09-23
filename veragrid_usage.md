@@ -17,3 +17,12 @@ will be used instead of the native VeraGrid ones.
 
 The rest is all the same. 
 Check the [VeraGrid documenation](https://veragrid.readthedocs.io/en/latest/) to know more.
+
+# File format support
+
+It is to be noted that at the time, GSLV standalone only supports `.gridcal` and `veragrid` files.
+However, coupled with VeraGrid as a plug-in library, it can run any file format that
+VeraGrid VeraGrid can read.
+
+Check the [VeraGrid documenation](https://veragrid.readthedocs.io/en/latest/md_source/file_operations.html) 
+to know more.
