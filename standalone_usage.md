@@ -95,6 +95,24 @@ res = pg.multi_island_pf(grid=mc, options=options, time_indices=list(range(nt)))
 print(res.voltage)  # per-unit voltage matrix
 ```
 
+### Methods and Controls
+
+Depending on the method, certain controls may be available or not. In practice this is a quick way
+to find control positons without resorting to a complete optimization.
+The controls supported are as follows:
+
+|   | Newton Raphson  |Powell Dog-leg|Levenberg-Marquardt|Iwamoto|Fast-decoupled|Gauss-seidel|Holomorphic embedding|Linear without voltage modules|Linear with voltage modules|
+|---|---|---|---|---|---|---|---|---|---|
+|Local voltage control using a Generator.|  ✅ | ✅  | ✅  |  ✅ | ✅  | ✅  |  ✅ |  ✅  |  ✅ |
+|Remote voltage control using a Generator.| ✅  |  ✅ |  ✅ |  ✅ |  ✅ |   |   |   |   |
+|Generator reactive power limits.| ✅  |  ✅ |  ✅ |  ✅ | ✅  |  ✅ |   |   |   |
+|Local and remote voltage control using a transformer's tap changer.| ✅  |  ✅ |  ✅ |   |   |   |   |   |   |
+|Local active power control using a transformer's tap changer.|  ✅ | ✅  |  ✅ |   |   |   |   |   |   |
+|Local reactive power control using a transformer's tap changer.| ✅  | ✅  | ✅  |   |   |   |   |   |   |
+|Local and remote AC and DC voltage control using a converter.| ✅  | ✅  | ✅  |   |   |   |   |   |   |
+|Local AC and DC active power control using converter.|✅   | ✅  |  ✅ |   |   |   |   |   |   |
+|Local AC reactive power control using a converter.| ✅  | ✅  |  ✅ |   |   |   |   |   |   |
+
 
 ## Contingency analysis
 
