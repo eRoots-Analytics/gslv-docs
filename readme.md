@@ -9,11 +9,13 @@ that has been exposed to python closely following the VeraGrid API design.
 
 ## Supported OS and platforms
 
-GSLV is available for Linux (based on the kernel of Ubuntu 20.04 or newer), 
-OSX with *M* architectures, and Microsoft's Windows 10 or newer.
+GSLV is available for Linux x64 (based on the kernel of Ubuntu 20.04 or newer), 
+OSX with *M* architectures (ARM) , and Microsoft's Windows 10 or newer on x64 platforms.
 
 For the time being, only the python module is made available. 
 Upon special request a static or dynamic library could be provided. 
+
+GSLV is available for python versions 3.10 to 3.13.
 
 ## Installing GSLV (Python)
 
@@ -25,18 +27,7 @@ Installing is as simple as typing the following on your system command line:
 pip install pygslv
 ```
 
-And you will be able to install it in the system python distribution.
-
-If you with to install `pygslv` into a specific python distribution do:
-
-```bash
-"[the path to the python executable]" -m pip install pygslv
-```
-
-For instance, to install gslv into VeraGrids's python under a Windows setup:
-```bash
-"c:\veragrid\python312\python.exe" -m pip install pygslv
-```
+Click [here](installation.md) to know more.
 
 ## License and activation
 
