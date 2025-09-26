@@ -1,8 +1,6 @@
 
 ## GSLV End User License Agreement (EULA)
 
-**Date:** 23/09/2025
-
 This End User License Agreement ("Agreement") is made between:
 
 **eRoots Analytics S.L.**  
