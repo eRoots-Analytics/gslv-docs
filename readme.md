@@ -32,6 +32,8 @@ Click [here](installation.md) to know more.
 
 ## License and activation
 
+**The End User License Agreement** can be see [here](eula.md).
+
 If you have purchased a license with eRoots Analytics S.L. you have
 received a license file (i.e. `license.gslv`). This license file has 
 to be stored in a folder with **read and write access**, this is because 
@@ -45,7 +47,11 @@ off-line access until requiring an on-line verification. This allows for working
 planes or other temporary off-line situations.
 Special, completely off-line licenses are possible as well.
 
-**The End User License Agreement** can be see [here](eula.md).
+If you plan to run the software in standalone mode you may put the license in the home folder for instance.
+However the simplest thing to do is to **Drag & Drop the license in the VeraGrid GUI** and it will install it.
+
+Click [here](standalone_usage.md) to read more about the standalone license validation.
+
 
 ## [VeraGrid Usage](veragrid_usage.md)
 
